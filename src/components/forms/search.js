@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import { Field, reduxForm } from 'redux-form';
 import { customInput } from "../fields";
 
-class UserSearchForm extends Component {
+class SearchForm extends Component {
 
     renderForm = ({ handleSubmit, pristine, reset, submitting }) => {
 
         return (
             <form
                 onSubmit={handleSubmit}
-                className='container'>
+                className='search'>
                 <Field
                     name='user'
                     component={customInput}
@@ -39,8 +39,8 @@ class UserSearchForm extends Component {
     }
 }
 
-UserSearchForm = reduxForm({
+SearchForm = reduxForm({
     form: 'userSearch'
-})(UserSearchForm);
+})(SearchForm);
 
-export default UserSearchForm;
+export default SearchForm;
