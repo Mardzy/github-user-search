@@ -6,9 +6,7 @@ const Gallery = ({user, handleClick}) => {
     return(
         <div
            className='col-sm-4 gallery-card'
-           value={user.login}
-
-        >
+           value={user.login}>
             <UserCard
                 handleClick={handleClick}
                 user={user}

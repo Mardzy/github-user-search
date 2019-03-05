@@ -1,9 +1,6 @@
 import React from 'react'
 import moment from 'moment'
 
-// const style = {width: '100%'};
-
-
 const Display = ({user, email}) => {
     console.log('user', user);
 
@@ -30,13 +27,3 @@ const Display = ({user, email}) => {
 
 export default Display;
 
-// image url
-// name url (login)
-// email send email link
-// company
-// location
-// public repos repos_url
-// bio
-// first joined
-
-//forgotten name https%3A%2F%2Fpicsbud.com%2Fimages%2Fforgot-name-awkward-meme-01.html&psig=AOvVaw3la5Xus2Qe7K6GD5VDhyr6&ust=1551810443122914
